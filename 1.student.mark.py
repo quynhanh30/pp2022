@@ -78,9 +78,6 @@ def showMark(courseid, students):
       print(f"{student['name']: <20}  {student['marks'][courseid]}")  
 
 
-# q1: checking if a value existss or not
-# q2: encapsulation
-
 # enter student count and information
 studentCount = inputStudentCount()
 students = inputStudentInfo(studentCount)
